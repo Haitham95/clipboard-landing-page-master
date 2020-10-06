@@ -1,0 +1,140 @@
+@media screen and (max-width: 480px) {
+    header {
+        max-width: 48rem;
+    }
+
+    .hero-text {
+        position: relative;
+        width: 90%;
+        text-align: center;
+    }
+
+    .hero-text p {
+        font-size: 2rem;
+    }
+
+    .hero-text p br {
+        display: none;
+    }
+    
+    .btn {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 2rem;
+        width: 80%;
+        font-size: 2rem;
+    }
+
+    .features {
+        max-width: 480px;
+        padding-top: 10rem;
+    }
+
+    .features-text {
+        display: block;
+        width: 90%;
+    }
+
+    .features-text p {
+        margin: 0;
+        font-size: 2rem;
+    }
+
+    .features-show {
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .features-show img {
+        width: 100%;
+    }
+
+    .features-items {
+        display: block;
+        padding: 8rem 0 0 0;
+    }
+
+    .features-items p {
+        width: 100%;
+        font-size: 2.1rem;
+    }
+
+    .features2 img {
+        width: 100%;
+    }
+    
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .features3-item {
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .features3-item p {
+        font-size: 2.1rem;
+    }
+
+    .flex-container img {
+        margin-bottom: 5rem;
+    }
+
+    .clipboard {
+        width: 80%;
+    }
+
+    .clipboard p {
+        font-size: 2rem;
+        margin: 0;
+        text-align: center;
+    }
+
+    footer {
+        max-width: 480px;
+        margin: 0 auto;
+    }
+
+    .flex {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+
+    .logo-div img {
+        margin-bottom: 4rem;
+    }
+
+    .flex .links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .links a {
+        padding-bottom: 3rem;
+        padding-right: 0;
+    }
+
+    .social-icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .social-icons i {
+        width: 10%;
+        padding-right: 0;
+        font-size: 3rem;
+    }
+
+}
